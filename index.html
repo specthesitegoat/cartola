@@ -1,0 +1,221 @@
+<!DOCTYPE html><html lang="pt-br" ng-app="cartolaApp" ng-strict-di=""><head>
+        <meta charset="utf-8">
+        <title>Cartola - Paixão, Escalação, Zoação</title>
+
+        <link rel="preconnect" href="https://s3.glbimg.com" crossorigin="">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1, user-scalable=no">
+        <meta name="description" content="Escale os craques do Brasileirão para o seu time e dispute com amigos e milhares de jogadores para ver quem sabe mais de futebol!">
+        <link rel="shortcut icon" href="favicon_cartola.png">
+
+        <meta name="apple-mobile-web-app-title" content="Cartola">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="apple-itunes-app" content="app-id=1129547202">
+        <meta name="google-play-app" content="app-id=br.com.mobits.cartolafc">
+
+        <link href="iphone5_splash.jpg" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+        <link href="iphone6_splash.jpg" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+        <link href="iphoneplus_splash.jpg" media="(device-width: 621px) and (device-height: 1104px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image">
+        <link href="iphonex_splash.jpg" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image">
+        <link href="iphonexr_splash.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+        <link href="iphonexsmax_splash.jpg" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3)" rel="apple-touch-startup-image">
+        <link href="ipad_splash.jpg" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+        <link href="ipadpro1_splash.jpg" media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+        <link href="ipadpro3_splash.jpg" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+        <link href="ipadpro2_splash.jpg" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2)" rel="apple-touch-startup-image">
+
+        <link href="apple-touch-icon.png" rel="apple-touch-icon">
+        <link href="apple-touch-icon-76x76.png" rel="apple-touch-icon" sizes="76x76">
+        <link href="apple-touch-icon-120x120.png" rel="apple-touch-icon" sizes="120x120">
+        <link href="apple-touch-icon-152x152.png" rel="apple-touch-icon" sizes="152x152">
+        <link href="apple-touch-icon-180x180.png" rel="apple-touch-icon" sizes="180x180">
+        <link href="icon-hires.png" rel="icon" sizes="192x192">
+        <link href="icon-normal.png" rel="icon" sizes="128x128">
+
+        <link href="icon-hires.png" rel="android-touch-icon" sizes="192x192">
+
+        <link rel="manifest" href="manifest.json">
+
+        <link rel="stylesheet" href="vendors.css">
+
+        <link rel="stylesheet" href="share.bar.min.css">
+
+        <link rel="stylesheet" href="cartola.css">
+
+        <link href="lgpd-lib.min.css" rel="stylesheet" type="text/css">
+
+        <meta property="fb:app_id" content="289255557788943">
+        <meta property="og:url" content="https://cartola.globo.com">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Cartola - Paixão, Escalação, Zoação">
+        <meta property="og:description" content="Escale os craques do Brasileirão para o seu time e dispute com amigos e milhares de jogadores para ver quem sabe mais de futebol!">
+        <meta property="og:image" content="https://cartola.globo.com/dist/13.1.5/img/thumb-share-1200-630-2023.png">
+        <meta property="og:image" content="https://cartola.globo.com/dist/13.1.5/img/thumb-share-600-315-2023.png">
+        <meta name="theme-color" content="#e3672a">
+
+        <!-- TAG GOOGLE OWN property -->
+        <meta name="google-site-verification" content="DowN1beSIitToPc14EpcT97_lmiAMN4YCiNZ7A0ERt4">
+
+        <script src="globoid-js.min.js"></script>
+
+        <!-- Tag Manager -->
+        <script type="text/javascript">
+            TAG_MANAGER_SPA = true;
+            window.utag_cfg_ovrd = {noview : true};
+            var utag_data = {
+                'horizonTenant': 'cartola',
+                'ad_unit': 'tvg_Cartola/web',
+                'tipo_pagina': 'cartola',
+                'ad_site_page': '{"a": "tvg_Cartola/web", "m": ["banner_insert", "banner_mobile_fim"], "d": ["banner_insert"]}',
+                'page_name': 'index',
+                'structure_tree': ['cartola fc'],
+                'ad_positions': '{"mobile":["banner_insert", "banner_mobile_fim"], "desktop":["banner_insert"]}'
+            };
+
+        </script>
+        <script src="lib-pub-relay-latest.js" async=""></script>
+        <!-- Tag Manager -->
+
+        <script>
+        window.dataLayer = [{
+            'environment': 'prod'
+        }];
+        </script>
+
+        <!-- Google Tag Manager -->
+        <script>
+            (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-P9DRHZH');
+            </script>
+        <!-- End Google Tag Manager -->
+
+        <!-- facebook -->
+        <script>
+            window.fbAsyncInit = function() {
+                FB.init({
+                    appId            : '289255557788943',
+                    xfbml            : true,
+                    version          : 'v3.2'
+                });
+            };
+        </script>
+        <script async="" defer="" src="sdk.js"></script>
+        <!-- facebook -->
+
+
+        <!-- Firebase -->
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+            https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="firebase-remote-config.js"></script>
+
+        <!-- Add the standard Performance Monitoring library -->
+        <script src="firebase-performance.js"></script>
+
+        <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyC3OF9A5fvopt7x_vQgDWo_BLefv5QeCXo",
+            authDomain: "cartolafc-bcdd9.firebaseapp.com",
+            databaseURL: "https://cartolafc-bcdd9.firebaseio.com",
+            projectId: "cartolafc-bcdd9",
+            storageBucket: "cartolafc-bcdd9.firebasestorage.app",
+            messagingSenderId: "699239679140",
+            appId: "1:699239679140:web:def79d2240c1d35f891231",
+            measurementId: "G-XGZ28B87F4"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        var perf = firebase.performance();
+        var remoteConfig = firebase.remoteConfig();
+        remoteConfig.settings.minimumFetchIntervalMillis = 600000;
+        remoteConfig.fetch();
+        remoteConfig.activate();
+        </script>
+
+        <!-- Airship -->
+        <script type="text/javascript">
+            !function(n,r,e,t,c){var i,o="Promise"in n,u={then:function(){return u},catch:function(n){
+            return n(new Error("Airship SDK Error: Unsupported browser")),u}},s=o?new Promise((function(n,r){i=function(e,t){e?r(e):n(t)}})):u
+            ;s._async_setup=function(n){if(o)try{i(null,n(c))}catch(n){i(n)}},n[t]=s;var a=r.createElement("script");a.src=e,a.async=!0,a.id="_uasdk",
+            a.rel=t,r.head.appendChild(a)}(window,document,'https://aswpsdkus.com/notify/v1/ua-sdk.min.js',
+            'UA', {
+                vapidPublicKey: "BH1Hxj-x6RvpVEH1JCYxy1iffp2NdwCylhTwa9Jlzp0grNUfCD7yyLQKvcgvdACvpH9qqhAUNF8acyTp_eABp5Q=",
+                appKey: "xoi7Rsf6TtCfXWvYmFhs2g",
+                token: "MTp4b2k3UnNmNlR0Q2ZYV3ZZbUZoczJnOmRjeWtaSmQ4a0ozb1lZTnpTMG1lejdlOEFCaERhODd0eDJfT1NKVmx3eE0",
+                workerUrl: '/serviceWorker.js'
+            });
+        </script>
+
+        <!-- barra globo.com -->
+        <script src="1.8.3.min.js"></script>
+        <!-- barra globo.com -->
+        <script src="cartola-v2-main.vendors.js"></script>
+        <script src="cartola-v2-main.cartola-v2.js" async=""></script>
+    </head>
+
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9DRHZH"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+        <div class="cartola-page">
+            <div class="glb-grid">
+                <div></div>
+            </div>
+
+            <div id="banner_insert"></div>
+
+            <div class="row full-width ">
+                <header-v2></header-v2>
+            </div>
+
+            <toaster-container></toaster-container>
+
+            <!-- Conteudo que varia -->
+            <div class="cartola-conteudo well" ui-view=""></div>
+            <!-- Fim do conteudo que varia -->
+
+            <div class="row full-width ">
+                <rodape-v2></rodape-v2>
+            </div>
+
+            <div modal=""></div>
+        </div>
+
+        <script>
+            (function(){
+                var js = document.createElement("script");
+                js.type="text/javascript";
+                js.async=true;
+                js.src="//s3.glbimg.com/v1/AUTH_05f06ca986b54d6e9c5df94927ccf7fc/libs/globocom-horizon/3.6.0/globocom-horizon.js";
+                var tag = document.getElementsByTagName("script")[0];
+                tag.parentNode.insertBefore(js, tag);
+            })();
+        </script>
+
+
+        <script src="base.js"></script>
+
+        <script src="share.bar.min.js"></script>
+        <script src="api.min.js"></script>
+
+        <script src="lgpd-lib.min.js"></script>
+
+        <script src="main.js"></script>
+    
+
+</body></html>
